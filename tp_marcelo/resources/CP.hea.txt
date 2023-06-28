@@ -1,0 +1,12 @@
+Nombre: Mario Puebla
+Peso: 87
+Altura: 1.78
+Muestras: 256
+Frecuencia de muestreo: 500
+Postura: Bipodal
+Nombre: Jorge Gómez
+Peso: 95
+Altura: 1.80
+Muestras: 256
+Frecuencia de muestreo: 500
+Postura: Bipodal

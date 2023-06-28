@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tp-marcelo"
+version = "0.1.0"
+description = ""
+authors = ["NicolasAgustin <nickrak10@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tp_marcelo"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+poethepoet = "^0.20.0"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poe.tasks]
+run  = "poetry run tp_marcelo\\main.py"
+test = "poetry run pytest -k divisible -v" 
